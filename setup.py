@@ -8,11 +8,11 @@ import materializecssform
 setup(
         name='django-materializecss-form',
         version=materializecssform.__version__,
-        packages=find_packages()
-        author="Daniel Grimshaw"
-        author_email="danielgrimshaw42@gmail.com"
+        packages=find_packages(),
+        author="Daniel Grimshaw",
+        author_email="danielgrimshaw42@gmail.com",
         description="Simple Django form template tag to work with the Materialize CSS library",
-        long_description="A simple Django form template tag to work with the Materialize CSS library, compatible with Django 1.11.3"
+        long_description="A simple Django form template tag to work with the Materialize CSS library, compatible with Django 1.11.3",
         include_package_data=True,
         url='https://github.com/danielgrimshaw/django-materializecss-form',
         classifiers=[
@@ -27,5 +27,5 @@ setup(
             'Topic :: Documentation :: Sphinx',
         ],
         license="GPLv3",
-        zip_safe=False
+        zip_safe=False,
 )
