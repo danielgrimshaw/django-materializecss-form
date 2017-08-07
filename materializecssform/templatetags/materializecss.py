@@ -9,7 +9,7 @@ register = template.Library()
 @register.filter
 def materializecss(element, label_cols={}):
     if not label_cols:
-        label_cols = 's12'
+        label_cols = 's6'
 
     markup_classes = {'label': label_cols, 'value': '', 'single_value': ''}
     return render(element, markup_classes)
